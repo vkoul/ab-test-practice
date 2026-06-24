@@ -54,6 +54,7 @@ project:
 
 site:
   title: "A/B Testing in Practice"
+  favicon: favicon.ico
   options:
     logo_text: "🧪 A/B Testing"
   template: book-theme
