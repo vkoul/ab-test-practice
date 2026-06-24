@@ -1,0 +1,59 @@
+version: 1
+
+project:
+  title: "A/B Testing in Practice"
+  authors:
+    - name: "Self-Study Edition"
+  github: https://github.com/vkoul/ab-test-practice
+  open_access: true
+  license: CC-BY-4.0
+  toc:
+    - file: intro
+    - title: "📖 Study Notes"
+      children:
+        - file: study_notes/week01_study_designing_ab_tests
+          title: "Week 1: Designing A/B Tests"
+        - file: study_notes/week02_study_validity_threats
+          title: "Week 2: Validity Threats"
+        - file: study_notes/week03_study_early_results
+          title: "Week 3: Early Results & Stakeholders"
+        - file: study_notes/week04_study_concurrent_tests
+          title: "Week 4: Concurrent Tests"
+    - title: "✍️ Assignments"
+      children:
+        - file: assignments/week01_assignment_designing_ab_tests
+          title: "Week 1 Assignment"
+        - file: assignments/week02_assignment_validity_threats
+          title: "Week 2 Assignment"
+        - file: assignments/week03_assignment_early_results
+          title: "Week 3 Assignment"
+        - file: assignments/week04_assignment_concurrent_tests
+          title: "Week 4 Assignment"
+    - title: "✅ Solutions"
+      children:
+        - file: solutions/w01_designing_ab_tests
+          title: "Week 1 Solution"
+        - file: solutions/w02_handling_test_validity_threats
+          title: "Week 2 Solution"
+        - file: solutions/w03_safely_handling_early_results
+          title: "Week 3 Solution"
+        - file: solutions/w04_concurrent_tests
+          title: "Week 4 Solution"
+    - title: "📋 Reference"
+      children:
+        - file: reference/ab_testing_lesson
+          title: "A/B Testing Lesson"
+        - file: reference/course_notes
+          title: "Course Notes"
+        - file: reference/ab_testing_cheat_sheet
+          title: "Cheat Sheet"
+        - file: reference/concept_map
+          title: "Concept Map"
+        - file: reference/30_critical_questions
+          title: "30 Critical Questions"
+
+site:
+  title: "A/B Testing in Practice"
+  options:
+    logo_text: "🧪 A/B Testing"
+  template: book-theme
